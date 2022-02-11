@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid.8</title>
+    
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        main{
+            background-color:deeppink;
+            grid-column-start: 2;
+            grid-column-end: 3;
+
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+        header{
+            background-color: fuchsia;
+            grid-column-start: 1;
+            grid-column-end: 4;
+
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        section{
+            background-color: hotpink;
+            grid-column-start: 1;
+            grid-column-end: 2;
+
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+        article{
+            background-color: mediumorchid;
+
+            grid-column-start: 3;
+            grid-column-end: 4;
+
+            grid-row-start: 2;
+            grid-row-end: 3;
+
+
+        }
+
+        footer{
+            background-color: lightcoral;
+
+            grid-column-start:1;
+            grid-column-end: 4;
+
+            grid-row-start: 3;
+            grid-row-end: 4;
+
+
+        }
+
+        div{
+            display: grid;
+            grid-template-rows: 90px 480px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>Arte é vida!</h1>
+        </header>
+        <main>
+            <h2>O poder da missanga:</h2>
+            <p>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Numquam molestiae c
+                onsequuntur sed similique, natus dolor,
+                officiis repellendus illo modi ab saepe 
+                eos quos ad error architecto dolorum
+                hic tempore! Deserunt?</p>
+                <p>Lorem ipsum dolor sit amet consectetur 
+                 adipisicing elit. Numquam molestiae c
+                onsequuntur sed similique, natus dolor,
+                officiis repellendus illo modi ab saepe 
+                eos quos ad error architecto dolorum
+                hic tempore! Deserunt?</p>
+        </main>
+
+        <section>
+            <h2>A Renna:</h2>
+        </section>
+
+        <article>
+            <h2>HandPoke:</h2>
+        </article>
+        
+        <footer> 
+            <h2> Os hippies:</h2>
+        </footer>
+    </div>
+    
+</body>
+</html>
